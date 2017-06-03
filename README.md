@@ -47,3 +47,21 @@ new LinkPreviewTask(this, "https://www.github.com", new Callback() {
     }
 });
 ```
+
+# How do I get set up? 
+
+Project-level build.gradle \(\<project>/build.gradle):
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+App-level build.gradle \(\<project>/\<app-module>/build.gradle):
+
+```
+compile 'com.github.mnayef.AndroidLinkPreview:library:v1.0.0'
+```
