@@ -13,11 +13,11 @@ A light-weight android library that can be quickly integrated into any app to us
 **XML**
 ```
 <com.mnayef.library.view.LinkPreviewView
-        android:id="@+id/link_preview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:failedLoadMsg="@string/failed_load_url"
-        app:invalidLinkMsg="@string/invalid_url" />
+    android:id="@+id/link_preview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:failedLoadMsg="@string/failed_load_url"
+    app:invalidLinkMsg="@string/invalid_url" />
 ```
 
 **JAVA**
@@ -26,7 +26,7 @@ LinkPreviewView linkPreviewView = (LinkPreviewView) itemView.findViewById(R.id.l
 linkPreviewView.load("https://www.github.com");
 ```
 
-# Example custom view:
+# Example custom request:
 
 **JAVA**
 ```

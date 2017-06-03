@@ -26,17 +26,17 @@ public class MainActivity extends AppCompatActivity {
         new LinkPreviewTask(this, "https://www.github.com", new Callback() {
             @Override
             public void onSuccess(Link link) {
-
+                // Use link object to get url data.
             }
 
             @Override
             public void onFailed() {
-
+                // Handle network error
             }
 
             @Override
             public void onMalformedUrl() {
-
+                // Handle malformed url
             }
         });
     }
