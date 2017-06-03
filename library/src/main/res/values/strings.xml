@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">library</string>
+    <string name="failed_load_url">Failed load url</string>
+    <string name="invalid_url">Invalid url</string>
+</resources>
