@@ -6,7 +6,7 @@ A light-weight android library that can be quickly integrated into any app to us
 - To make custom link preview view.
 
 # Screenshot
-![](screenshots/screenshot.png)
+![](screenshots/screenshot.png){:height="700px" width="400px"}
 
 # Example LinkPreviewView:
 
