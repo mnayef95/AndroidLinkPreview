@@ -63,5 +63,5 @@ allprojects {
 App-level build.gradle \(\<project>/\<app-module>/build.gradle):
 
 ```
-compile 'com.github.mnayef.AndroidLinkPreview:library:v1.0.0'
+compile 'com.github.mnayef:AndroidLinkPreview:v1.0.0'
 ```
